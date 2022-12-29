@@ -1,0 +1,11 @@
+Key|Value
+Name|
+Description|
+Path|
+CompileArgs|
+URL|
+Author|Jimmy Briggs <jimmy.briggs@jimbrig.com
+Version|0.0.1
+VersionDate|2022-12-20
+Metadata.LinesofCode|
+Metadata.NumComponents|
