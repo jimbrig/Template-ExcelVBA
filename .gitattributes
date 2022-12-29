@@ -1,35 +1,26 @@
-# .gitattributes for EXCEL VBA
-
 # Auto detect text files and perform LF normalization
 * text=auto
 
-# CRLF -> LF by default, but not for modules or classes (especially classes)
-*.bas text eol=crlf
-*.cls text eol=crlf
-*.frm text eol=crlf
-*.frx text eol=crlf
+# Linguist
 
-# for code export config:
-*.config.json text eol=crlf
+# XML
+*.odc linguist-language=XML
+*.rel linguist-language=XML
 
-# linguist - VBA
-
+# VBA
 *.cls linguist-language=VBA
 *.bas linguist-language=VBA
 *.frm linguist-language=VBA
 
-# linguist - PowerQuery M Code
-
+# PowerQuery
 # NOTE: probably won't work (https://github.com/github/linguist/blob/master/docs/overrides.md)
 # See PR - https://github.com/github/linguist/pull/4191
-
 *.pq linguist-language=M linguist-detectable 
 
-# customUI XML
+# INI
+*.vbaproj linguist-language=INI
 
-*.xml linguist-detectable
-
-# excel binaries
+# Set Diffs for XL Binaries
 *.xla diff=xl
 *.xlam diff=xl
 *.xls diff=xl
@@ -39,3 +30,49 @@
 *.xlt diff=xl
 *.xltm diff=xl
 *.xltx diff=xl
+
+# Default Extensions for an Excel VBA Project
+*.bas       text      eol=crlf # Modules
+*.cls       text      eol=crlf # Classes
+*.frm       text      eol=crlf # Forms
+*.dcm       text      eol=crlf # ?
+*.vbaproj   text      eol=crlf # Custom VBAProject
+*.txt       text      eol=crlf # Text
+*.log       text      eol=crlf # Logs
+*.pq        text      eol=crlf # Power Query
+*.m         text      eol=crlf # M Code
+
+*.chm       binary    eol=crlf # Windows Help
+*.h         text      eol=crlf # Header File (ContentIDs)
+
+*.tbix      binary    eol=crlf # Themes
+*.ttf       binary    eol=crlf # Fonts
+
+*.customUI  binary    eol=crlf # CustomUI
+
+*.frx       binary    eol=crlf # Form Binary
+*.bin       binary    eol=crlf # VBAProject.bin
+*.xls       binary    eol=crlf # Excel
+*.xlsm      binary    eol=crlf # Excel
+*.xlsx      binary    eol=crlf # Excel
+*.xlts      binary    eol=crlf # Excel
+*.xla       binary    eol=crlf # Excel
+*.xlam      binary    eol=crlf # Excel
+*.xlsb      binary    eol=crlf # Excel
+
+*.exe       binary    eol=crlf # Executable
+*.iss       text      eol=crlf # Inno Compiler
+
+*.wsf       text      eol=crlf # VBAC.wsf
+*.bat       text      eol=crlf # Batch
+*.cmd       text      eol=crlf # CMD
+*.ps1       text      eol=crlf # Pwsh
+*.psm1      text      eol=crlf # Pwsh Module
+*.psd1      text      eol=crlf # Pwsh Manifest
+*.vb        text      eol=crlf # Custom VB
+*.vbs       text      eol=crlf # Visual Basic
+*.cs        text      eol=crlf # C#
+
+*.odc       text      eol=crlf # OfficeDataConnection
+*.dns       text      eol=crlf # DomainNameServer
+*.odbc      binary    eol=crlf # DatabaseDrivers
