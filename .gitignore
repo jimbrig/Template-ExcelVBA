@@ -1,6 +1,18 @@
 # Excel temporary files
 ~*
+~$*.xla
+~$*.xlam
+~$*.xls
+~$*.xlsb
+~$*.xlsm
+~$*.xlsx
+~$*.xlt
+~$*.xltm
+~$*.xltx
 
 # Build files
+Build/Release/
+Build/Debug/
+*.xlsm
 *.xlam
 *.xla
