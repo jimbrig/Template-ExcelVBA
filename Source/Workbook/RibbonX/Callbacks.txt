@@ -1,0 +1,11 @@
+'Callback for customUI.onLoad
+Sub CUI_onLoad(ribbon As IRibbonUI)
+End Sub
+
+'Callback for tab_getLabel
+Sub tab_getLabel(control As IRibbonControl, ByRef returnedVal)
+End Sub
+
+'Callback for btn_onAction
+Sub btn_onAction(control As IRibbonControl)
+End Sub
