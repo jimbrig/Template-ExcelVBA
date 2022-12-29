@@ -1,0 +1,41 @@
+# .gitattributes for EXCEL VBA
+
+# Auto detect text files and perform LF normalization
+* text=auto
+
+# CRLF -> LF by default, but not for modules or classes (especially classes)
+*.bas text eol=crlf
+*.cls text eol=crlf
+*.frm text eol=crlf
+*.frx text eol=crlf
+
+# for code export config:
+*.config.json text eol=crlf
+
+# linguist - VBA
+
+*.cls linguist-language=VBA
+*.bas linguist-language=VBA
+*.frm linguist-language=VBA
+
+# linguist - PowerQuery M Code
+
+# NOTE: probably won't work (https://github.com/github/linguist/blob/master/docs/overrides.md)
+# See PR - https://github.com/github/linguist/pull/4191
+
+*.pq linguist-language=M linguist-detectable 
+
+# customUI XML
+
+*.xml linguist-detectable
+
+# excel binaries
+*.xla diff=xl
+*.xlam diff=xl
+*.xls diff=xl
+*.xlsb diff=xl
+*.xlsm diff=xl
+*.xlsx diff=xl
+*.xlt diff=xl
+*.xltm diff=xl
+*.xltx diff=xl
