@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <customUI xmlns="http://schemas.microsoft.com/office/2006/01/customui" onLoad="*onLoad">
-  <ribbon>
-    <tabs>
-      <!-- 
-      <tab id="" label="">
+	<ribbon>
+		<tabs>
+			<!-- 
+			<tab id="" label="">
 				<group id="grp*" label="">
 					<button id="btn*" label="" image="" onAction="*_Callback" size="normal"/>
 					<button id="btn*" label="" imageMso="" onAction="*_Callback" size="normal"/>
 					...
 				</group>
-			</tab> -->
-    </tabs>
-  </ribbon>
+			</tab>
+ 			-->
+		</tabs>
+	</ribbon>
 </customUI>
