@@ -1,2 +1,2 @@
 Name,Range,Comment
-NamedRange1,'<Name of Workbook>'!$A$1:$A$10,NamedRange1 Comment
+"NamedRange1","'<Name of Workbook>'!$A$1:$A$10","NamedRange1 Comment"
